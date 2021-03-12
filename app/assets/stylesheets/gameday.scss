@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.titles {
+  text-align: center;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: red;
+  size: 10%;
+}
+
+.offenseteam {
+  position: absolute;
+  top: 78%;
+  left: 30%;
+  size: 30%;
+  color: white;
+}
+
+.defenseteam {
+  position: absolute;
+  top: 18%;
+  left: 30%;
+  size: 30%;
+  color: white;
+}
+
+/* offense  */
+
+.quarterback {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+.fullback {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+}
+.halfback {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+}
+.leftwidereceiver {
+  position: absolute;
+  top: 61%;
+  left: 17%;
+}
+.lefttackle {
+  position: absolute;
+  top: 64%;
+  left: 30%;
+}
+.leftguard {
+  position: absolute;
+  top: 61%;
+  left: 40%;
+}
+.center {
+  position: absolute;
+  top: 64%;
+  left: 45%;
+}
+.rightguard {
+  position: absolute;
+  top: 61%;
+  left: 50%;
+}
+
+.righttackle {
+  position: absolute;
+  top: 64%;
+  left: 55%;
+}
+
+.tightend {
+  position: absolute;
+  top: 61%;
+  left: 65%;
+}
+
+.rightwidereceiver {
+  position: absolute;
+  top: 76%;
+  left: 73%;
+}
+
+/* defense  */
+
+.leftcornerback {
+  position: absolute;
+  top: 26%;
+  left: 17%;
+}
+
+.leftoutsidelinebacker {
+  position: absolute;
+  top: 35%;
+  left: 24%;
+}
+
+.leftdefensiveend {
+  position: absolute;
+  top: 42%;
+  left: 32%;
+}
+
+.leftdefensivetackle {
+  position: absolute;
+  top: 39%;
+  left: 38%;
+}
+
+.middlelinebacker {
+  position: absolute;
+  top: 34%;
+  left: 45%;
+}
+
+.rightdefensivetackle {
+  position: absolute;
+  top: 39%;
+  left: 50%;
+}
+
+.rightdefensiveend {
+  position: absolute;
+  top: 42%;
+  left: 55%;
+}
+.rightoutsidelinebacker {
+  position: absolute;
+  top: 35%;
+  left: 63%;
+}
+
+.rightcornerback {
+  position: absolute;
+  top: 26%;
+  left: 73%;
+}
+
+.leftsafety {
+  position: absolute;
+  top: 6%;
+  left: 40%;
+}
+
+.rightsafety {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+}
